@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6061d9ec.css",
+    "main.js": "/static/js/main.7bd5fc8b.js",
+    "static/js/453.f12206d8.chunk.js": "/static/js/453.f12206d8.chunk.js",
+    "static/media/profile.png": "/static/media/profile.d57082e23a1db472212e.png",
+    "static/media/banner.jpg": "/static/media/banner.b22c56e7646a101c2c3f.jpg",
+    "static/media/matplotlib.png": "/static/media/matplotlib.fd92e441fd682fc02b2f.png",
+    "static/media/COLLEGE.png": "/static/media/COLLEGE.cf8eda50fa062dc63970.png",
+    "static/media/AI.png": "/static/media/AI.78c73546b772ce352756.png",
+    "static/media/sqlite.png": "/static/media/sqlite.c990b32da56e0a1446ea.png",
+    "static/media/js.webp": "/static/media/js.1053926cf2f54323bdc1.webp",
+    "static/media/numpy.png": "/static/media/numpy.9eca1f7a4f09a8c742fd.png",
+    "static/media/ENCRYPT.png": "/static/media/ENCRYPT.c3c5861258fc88f5c0a8.png",
+    "static/media/HANGMAN.png": "/static/media/HANGMAN.38d8ef4c0d3952ea709b.png",
+    "static/media/seaborn.svg": "/static/media/seaborn.653bbba50db2d3973db2dac018071602.svg",
+    "static/media/php.svg": "/static/media/php.bf6243b5212d81aaf1245fc2826551fd.svg",
+    "static/media/mysql.svg": "/static/media/mysql.6394bc2572c13c00cc6e48bb91629ab3.svg",
+    "static/media/react.svg": "/static/media/react.7c8375868df8c536ab4f2d4078519904.svg",
+    "static/media/python.svg": "/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/nextjs.svg": "/static/media/nextjs.81461ea0446a899af1d2a5dab9bd0e7a.svg",
+    "static/media/c++.svg": "/static/media/c++.617c9a8bb301f69b558a86e12a325806.svg",
+    "static/media/css.svg": "/static/media/css.1d023123249332b8246d98e506eaa7a6.svg",
+    "static/media/html.svg": "/static/media/html.ed5a66323fb7466700b1b551dcf00ea5.svg",
+    "index.html": "/index.html",
+    "static/media/dj.svg": "/static/media/dj.4affb9cda75ea7612a9b3f144bd6ab81.svg",
+    "static/media/pandas.svg": "/static/media/pandas.5a48d1677b40ca61e96a08e92fdbb64d.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.017e1e304e12384d156d384f40a4b5f8.svg",
+    "static/media/c.svg": "/static/media/c.13f24c473f4fd7f944b1410cc8058a89.svg",
+    "main.6061d9ec.css.map": "/static/css/main.6061d9ec.css.map",
+    "main.7bd5fc8b.js.map": "/static/js/main.7bd5fc8b.js.map",
+    "453.f12206d8.chunk.js.map": "/static/js/453.f12206d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6061d9ec.css",
+    "static/js/main.7bd5fc8b.js"
+  ]
+}
