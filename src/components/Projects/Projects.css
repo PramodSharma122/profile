@@ -1,0 +1,162 @@
+
+.parent{
+    height: 400px;
+    width: 300px;
+    perspective: 1000px;
+    padding: 5px;
+}
+.card{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    /* background-image: url(../../assets/images/cover.jpg); */
+    background-position: center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.bg1{
+    background-image: url(../../assets/images/ENCRYPT.png);
+}
+.bg2{
+    background-image: url(../../assets/images/HANGMAN.png);
+}
+.bg3{
+    background-image: url(../../assets/images/COLLEGE.png);
+}
+.card:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.content-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 115, 225, 0.925) 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 25px 25px;
+    transform-style: preserve-3d;
+}
+.card-title{
+    color: aqua;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+.card-title:hover{
+    transform: translate3d(0px, 0px, 50px);
+}
+.card-content{
+    padding-top: 10px;
+    font-size: 14px;
+    color: bisque;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+.card-content:hover{
+    transform: translate3d(0px, 0px, 50px);
+}
+.see-more{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 7px;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+.see-more a{
+    text-decoration: none;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+/* .see-more:hover{
+    transform: translate3d(0px, 0px, 50px);
+} */
+.parent .date-box{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgb(0, 102, 255) 0px 20px 60px 0px, rgb(0, 200, 255) 0px 18px 36px -18px;
+    transform: translate3d(0px, 0px, 50px);
+    cursor: pointer;
+}
+.date-box .tooltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.date-box .tooltip::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.date-box:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.date-box span{
+    display: block;
+    text-align: center;
+}
+.date-box .month{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+.date-box .date{
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: 900;
+}
+.card2 .content-box,
+.card2 .date-box{
+    filter: hue-rotate(150deg);
+}
+.card1{
+    filter: hue-rotate(300deg);
+}
+
+
+@media (max-width:768px){
+    .grid{
+        justify-content: center;
+        text-align: center;
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+}

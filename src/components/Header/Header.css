@@ -1,0 +1,96 @@
+.header{
+    margin-bottom: 20px !important;
+    background-color: #1b2430 !important;
+    padding: 0 22px 0 0px !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.07) !important;
+    height: 60px;
+    border-bottom: 3px solid red;
+}
+.header .header_navlink{
+    padding: 0;
+}
+
+.header .header_home{
+    background-color: var(--main-color);
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.homeactive .header_home{
+    background-color: #17cf97 !important;
+}
+.header .header_left{
+    margin-right: auto;
+}
+.header .header_link{
+
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.header .header_link:hover{
+    color: #17cf97 !important;
+}
+.active{
+    color: #17cf97 !important;
+    border-bottom: 5px solid #17cf97;
+}
+/* .header .header_link:hover::after,
+.header .header_link.active::after{
+    content: '';
+    width: 40%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} */
+
+.header .header_right{
+    display: flex !important;
+    align-items: center !important;
+}
+.header .header_right > a > .MuiSvgIcon-root {
+    font-size: 25px !important;
+    margin-right: 12px;
+    color: #fff;
+}
+.header .header_right > a > .MuiSvgIcon-root:hover{
+    color: #17cf97;
+}
+
+@media(max-width:992px){
+    .navbar-collapse{
+        margin-right: -20px;
+        margin-top: 2px;
+        background-color: #2a3239;
+        text-align: center;
+    }
+    .header .header_left{
+        margin-top: 3rem;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    .header .header_right{
+        display: block !important;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        align-items: center;
+    }
+    .header .header_right > div {
+        margin-top: 1.5rem;
+    }
+    .header .header_right > a > .MuiSvgIcon-root{
+        font-size: 30px !important;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+}

@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  background-image: url(./assets/images/banner.jpg);
+}
+
+
+.heading{
+  @apply text-center text-white text-[27px] sm:text-[33px] md:text-[40px] font-bold uppercase
+}

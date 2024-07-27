@@ -1,0 +1,71 @@
+.profile{
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+}
+
+.profile_name{
+    line-height: 18px;
+    padding: 20px;
+}
+
+.profile_name .name{
+    text-transform: uppercase;
+    color: #2C2C54;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile_name .title{
+    font-size: 15px;
+    color: #787878;
+}
+
+.profile_image{
+    text-align: center;
+    margin-top: -30px;
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.profile_image img{
+    width:100%;
+}
+
+/* Information */
+.profile_information{
+    top: 0;
+    left: 0;
+    margin: -45px 2px 30px 10px;
+    overflow-x: hidden;
+}
+
+.profile_information .timeline .timeline_content{
+    margin-top: -2px;
+    margin-bottom: 15px;
+}
+
+.timelineItem_text{
+    font-size: 15px !important;
+    color: #787878 !important;
+    font-weight: 600 !important;
+}
+
+.timelineItem_text > a{
+    text-decoration: none;
+    color: #787878 !important;
+}
+
+.timelineItem_text > span{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.profile .button_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
