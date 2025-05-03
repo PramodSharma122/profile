@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 const TextEffect = () => {
   return (
     <TypeAnimation sequence={[
-        'Coder',
+        'Data Scientist',
         1500,
         'Web Developer',
         1500,
