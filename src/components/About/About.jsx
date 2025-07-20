@@ -14,7 +14,7 @@ const About = () => {
         <div>
           <h1 className='text-[20px] font-bold uppercase text-[#55e6a5] mb:[1rem]'>ABOUT ME</h1>
           <h2 className='text-[27px] md:text-[35px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[2rem] font-bold text-white'>Transforming
-          <span className='text-yellow-400'> vissions</span></h2>
+          <span className='text-yellow-400'> visions</span></h2>
 
           <div className='mb-[3rem] flex items-center md:space-x-5'>
             <span className='w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
